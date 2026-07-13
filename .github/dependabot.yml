@@ -5,11 +5,11 @@ updates:
     directory: "/"  # Pfad zum Projektverzeichnis
     schedule:
       interval: "weekly"  # Prüft wöchentlich auf Updates
-    open-pull-requests-limit: 5  # Maximale Anzahl offener PRs
+    open-pull-requests-limit: 10 # Maximale Anzahl offener PRs
     reviewers:  # Optionale Reviewer zuweisen
-      - "dein-username"
+      - "huberp"
     assignees:
-      - "dein-username"
+      - "huberp"
     commit-message:
       prefix: "chore"
       include: "scope"
