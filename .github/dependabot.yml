@@ -1,0 +1,18 @@
+version: 2
+updates:
+  # Aktualisierung der npm-Abhängigkeiten
+  - package-ecosystem: "npm"
+    directory: "/"  # Pfad zum Projektverzeichnis
+    schedule:
+      interval: "weekly"  # Prüft wöchentlich auf Updates
+    open-pull-requests-limit: 5  # Maximale Anzahl offener PRs
+    reviewers:  # Optionale Reviewer zuweisen
+      - "dein-username"
+    assignees:
+      - "dein-username"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "javascript"
